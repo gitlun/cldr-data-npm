@@ -107,7 +107,7 @@ if (process.env.CLDR_DATA_URLS_FILTER) {
 if (coverage) {
   options.srcUrlKey = coverage;
 }
-
+console.log(srcUrl, __dirname);
 cldrDownloader(
   srcUrl,
   __dirname,
